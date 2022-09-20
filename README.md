@@ -81,11 +81,11 @@ FROM
 ```
 Output :
 
-  |id_num |  message              |   generated_at 
--------------------------------------------------------------  
-1 | 1     | Its the first message.| 03.01.2021 18:53:56
--------------------------------------------------------------
-2 | 2     | system_date_time      | 03.01.2021 18:53:56
+
+| id_num  |   message              |   generated_at       |
+| :------ | :--------------------- | :------------------- |  
+| 1     | Its the first message.| 03.01.2021 18:53:56|
+| 2     | system_date_time      | 03.01.2021 18:53:56|
 
 
 Here, firstly you need to create a table then insert values into it then generate the required output using the SYSDATETIME() function as a default value.
